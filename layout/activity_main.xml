@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/newsignup"
+    android:orientation="vertical" >
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:layout_weight="0.27" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="115dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/button"
+            android:onClick="signUp"
+            android:text="Sign Up"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/btnSingIn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/button"
+            android:gravity="center"
+            android:onClick="signIn"
+            android:text="Sign In"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:typeface="serif" />
+
+    </LinearLayout>
+
+    </LinearLayout>
